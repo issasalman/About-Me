@@ -1,7 +1,7 @@
 'use strict'
 
 let userName=prompt('What is your name?');
-alert('welcome ' +userName + ' Nice to meet you ^^' );
+        alert('welcome ' +userName + ' Nice to meet you ^^' );
 
 
 let name1=prompt('Is my name Issa?');
@@ -30,7 +30,7 @@ if (age==="yes" || age==="y") {
 let major=prompt('Am i an Engineer?');
 if (major==="yes" || major==="y") {
     console.log(major+" I am an Engineer");
-    alert('true I am an Engineer')
+               alert('true I am an Engineer')
     
 } else {
     alert('You are wrong I am engineer')
