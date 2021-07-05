@@ -5,6 +5,8 @@ alert('welcome ' +userName + ' Nice to meet you ^^' );
 
 
 let name1=prompt('Is my name Issa?');
+name1=name1.toLowerCase()
+
 if (name1==="yes" || name1==="y" ) {
     console.log( name1+"  my name is Issa");
     alert('true my name is Issa')
@@ -17,6 +19,8 @@ if (name1==="yes" || name1==="y" ) {
 
 
 let age=prompt('Is my age 25?');
+age=age.toLowerCase()
+
 if (age==="yes" || age==="y") {
     console.log(age+"   my age is 25");
     alert('true my age is 25')
@@ -28,6 +32,7 @@ if (age==="yes" || age==="y") {
 }
 
 let major=prompt('Am i an Engineer?');
+major=major.toLowerCase()
 if (major==="yes" || major==="y") {
     console.log(major+" I am an Engineer");
     alert('true I am an Engineer')
@@ -42,6 +47,7 @@ if (major==="yes" || major==="y") {
 
 
 let car=prompt('Is my favourite car BMW??');
+car=car.toLowerCase()
 if (car==="yes" || car=== "y") {
     console.log(car+" I like BMW So much");
     alert('true I like BMW So much')
@@ -53,6 +59,7 @@ if (car==="yes" || car=== "y") {
 }
 
 let travel=prompt('Do I like to visit Dubai?');
+travel=travel.toLowerCase()
 if (travel==="yes" || travel ==="y") {
     console.log(travel+" I visited it last year");
     alert('true I visited it last year')
