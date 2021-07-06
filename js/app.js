@@ -133,7 +133,7 @@ for (let i = 5; i > -1; i--) {
     for (let j = 0; j < car1.length; j++) {
         if (car === car1[j]     ) {
             alert("Great job! u guessed the correct car ")
-            flag = true
+            test1 = true
             console.log(car)
             score++
             break;
