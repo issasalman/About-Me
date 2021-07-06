@@ -13,4 +13,8 @@ TA's helped me about it and thanks to them
 Reflections and Comments
 every thing is perfect and i had fun coding the lab today and i fnished it before the time.
 
+## LAB - 02
+About Me, with a guessing game
+I made a guessing game using HTML, CSS and JavaCsript to ask user about my self and let him guess number in between and i used array for loop and if in my code 
+
 Thanks alot
