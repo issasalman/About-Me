@@ -114,10 +114,12 @@ for (let i = 3; i > -1; i--) {
         alert("Its too high please try again  you have " + i + " attepmts remaining")
 
     }
-
+    if(i===0){
+        alert("Your attempts ended  The number is 7")
+    }
 }
 
-alert("The number is 7")
+
 
 
 
@@ -146,7 +148,9 @@ for (let i = 5; i > -1; i--) {
     }else{
         car = prompt("Wrong Please guess more car names you have " + i + " attepmts remaining")
     }
-
+    if(i===0){
+    alert("The correct asnwers are: (bmw, ford, mercedes, kia) ")
+}
 }
 
 
