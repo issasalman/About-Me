@@ -108,7 +108,7 @@ alert('Bye Bye  ' + userName + ' Nice to meet you ^^');
 
 
 //  Q6
-
+function Q6(){
 let myNumber = ""
 for (let i = 3; i > -1; i--) {
      myNumber = prompt("Please guess a number between 1 and 10")
@@ -132,7 +132,8 @@ for (let i = 3; i > -1; i--) {
         alert("Your attempts ended  The number is 7")
     }
 }
-
+}
+Q6();
 
 
 
