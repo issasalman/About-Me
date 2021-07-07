@@ -149,7 +149,7 @@ for (let i = 5; i > -1; i--) {
         car = prompt("Wrong Please guess more car names you have " + i + " attepmts remaining")
     }
     if(i===0){
-    alert("The correct asnwers are: (bmw, ford, mercedes, kia) ")
+    alert("The correct asnwers are:  "+car1)
 }
 }
 
