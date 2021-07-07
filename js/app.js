@@ -64,6 +64,7 @@ else {
 Q3();
 
 //  Q4
+function Q4(){
 let car0 = prompt('Is my favourite car BMW??');
 car0 = car0.toLowerCase()
 if (car0 === "yes" || car0 === "y") {
@@ -79,6 +80,9 @@ else {
 
 
 }
+}
+Q4();
+
  //  Q5
 let travel = prompt('Do I like to visit Dubai?');
 travel = travel.toLowerCase()
