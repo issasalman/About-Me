@@ -93,11 +93,11 @@ alert('Bye Bye  ' + userName + ' Nice to meet you ^^');
 
 
 
+// question 6
 
-
-
+let myNumber = ""
 for (let i = 3; i > -1; i--) {
-    let myNumber = prompt("Please guess a number between 1 and 10")
+     myNumber = prompt("Please guess a number between 1 and 10")
 
     if (myNumber === '7') {
         console.log(myNumber)
@@ -122,7 +122,7 @@ alert("The number is 7")
 
 
 
-
+// question 7
 
 
 let car1 = ["bmw", "ford", "mercedes", "kia"];
