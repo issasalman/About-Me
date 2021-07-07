@@ -141,7 +141,7 @@ Q6();
 
 //  Q7
 
-
+function Q7(){
 let car1 = ["bmw", "ford", "mercedes", "kia"];
 let car = prompt("Please guess which car I like the most")
 let test1 = false
@@ -171,3 +171,5 @@ for (let i = 5; i > -1; i--) {
 
 alert("Your  score is "+score+ "/7")
 
+}
+Q7();
