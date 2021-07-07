@@ -41,8 +41,10 @@ else {
 
 }
 }
+Q2();
 
 //  Q3
+function Q3(){
 let major = prompt('Am i an Engineer?');
 major = major.toLowerCase()
 if (major === "yes" || major === "y") {
@@ -58,7 +60,8 @@ else {
 
 
 }
-
+}
+Q3();
 
 //  Q4
 let car0 = prompt('Is my favourite car BMW??');
