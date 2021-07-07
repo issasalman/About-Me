@@ -4,7 +4,8 @@ let userName = prompt('What is your name?');
 let score = 0
 alert('welcome ' + userName + ' Nice to meet you ^^');
 
-
+//  Q1
+function Q1(){
 let name1 = prompt('Is my name Issa?');
 name1 = name1.toLowerCase()
 
@@ -19,9 +20,10 @@ else if (name1 === "no" || name1 === "n") {
 else {
     alert('please anwser with yes or no')
 }
+}
+Q1();
 
-
-
+//  Q2
 let age = prompt('Is my age 25?');
 age = age.toLowerCase()
 
@@ -37,7 +39,7 @@ else {
 
 
 }
-
+//  Q3
 let major = prompt('Am i an Engineer?');
 major = major.toLowerCase()
 if (major === "yes" || major === "y") {
@@ -55,7 +57,7 @@ else {
 }
 
 
-
+//  Q4
 let car0 = prompt('Is my favourite car BMW??');
 car0 = car0.toLowerCase()
 if (car0 === "yes" || car0 === "y") {
@@ -71,7 +73,7 @@ else {
 
 
 }
-
+ //  Q5
 let travel = prompt('Do I like to visit Dubai?');
 travel = travel.toLowerCase()
 if (travel === "yes" || travel === "y") {
@@ -93,7 +95,7 @@ alert('Bye Bye  ' + userName + ' Nice to meet you ^^');
 
 
 
-// question 6
+//  Q6
 
 let myNumber = ""
 for (let i = 3; i > -1; i--) {
@@ -124,7 +126,7 @@ for (let i = 3; i > -1; i--) {
 
 
 
-// question 7
+//  Q7
 
 
 let car1 = ["bmw", "ford", "mercedes", "kia"];
