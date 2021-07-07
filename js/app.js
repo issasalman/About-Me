@@ -144,6 +144,7 @@ Q6();
 function Q7(){
 let car1 = ["bmw", "ford", "mercedes", "kia"];
 let car = prompt("Please guess which car I like the most")
+car = car.toLowerCase()
 let test1 = false
 for (let i = 5; i > -1; i--) {
     
@@ -162,14 +163,40 @@ for (let i = 5; i > -1; i--) {
 
     }else{
         car = prompt("Wrong Please guess more car names you have " + i + " attepmts remaining")
+        car = car.toLowerCase()
     }
     if(i===0){
     alert("The correct asnwers are:  "+car1)
 }
 }
 
+}
+Q7();
 
 alert("Your  score is "+score+ "/7")
 
-}
-Q7();
+
+
+//ANOTHER WAY TO SOLVE Q7
+// let car1 = ["bmw", "ford", "mercedes", "kia"];
+// let car = prompt("Please guess which car I like the most")
+// let test1 = false
+// loop1: for (let i = 5; i > -1; i--) {
+//     loop2:
+//     for (let j = 0; j < car1.length; j++) {
+//         if (car === car1[j]     ) {
+//             alert("Great job! u guessed the correct car ")
+//             test1 = true
+//             console.log(car)
+//             score++
+//             break loop2;
+//             break loop1;
+//         }
+//     }
+
+   
+//     alert("Guess again ")
+//     car = prompt("Please guess which car I like the most")
+
+// }
+
