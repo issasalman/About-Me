@@ -84,6 +84,7 @@ else {
 Q4();
 
  //  Q5
+ function Q5(){
 let travel = prompt('Do I like to visit Dubai?');
 travel = travel.toLowerCase()
 if (travel === "yes" || travel === "y") {
@@ -98,7 +99,8 @@ else {
     alert('please anwser with yes or no')
 
 }
-
+}
+Q5();
 
 alert('Bye Bye  ' + userName + ' Nice to meet you ^^');
 
