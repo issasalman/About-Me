@@ -24,6 +24,7 @@ else {
 Q1();
 
 //  Q2
+function Q2(){
 let age = prompt('Is my age 25?');
 age = age.toLowerCase()
 
@@ -39,6 +40,8 @@ else {
 
 
 }
+}
+
 //  Q3
 let major = prompt('Am i an Engineer?');
 major = major.toLowerCase()
