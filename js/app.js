@@ -4,7 +4,8 @@ let userName = prompt('What is your name?');
 let score = 0
 alert('welcome ' + userName + ' Nice to meet you ^^');
 
-
+//  Q1
+function Q1(){
 let name1 = prompt('Is my name Issa?');
 name1 = name1.toLowerCase()
 
@@ -19,9 +20,11 @@ else if (name1 === "no" || name1 === "n") {
 else {
     alert('please anwser with yes or no')
 }
+}
+Q1();
 
-
-
+//  Q2
+function Q2(){
 let age = prompt('Is my age 25?');
 age = age.toLowerCase()
 
@@ -37,7 +40,11 @@ else {
 
 
 }
+}
+Q2();
 
+//  Q3
+function Q3(){
 let major = prompt('Am i an Engineer?');
 major = major.toLowerCase()
 if (major === "yes" || major === "y") {
@@ -53,9 +60,11 @@ else {
 
 
 }
+}
+Q3();
 
-
-
+//  Q4
+function Q4(){
 let car0 = prompt('Is my favourite car BMW??');
 car0 = car0.toLowerCase()
 if (car0 === "yes" || car0 === "y") {
@@ -71,7 +80,11 @@ else {
 
 
 }
+}
+Q4();
 
+ //  Q5
+ function Q5(){
 let travel = prompt('Do I like to visit Dubai?');
 travel = travel.toLowerCase()
 if (travel === "yes" || travel === "y") {
@@ -86,15 +99,16 @@ else {
     alert('please anwser with yes or no')
 
 }
-
+}
+Q5();
 
 alert('Bye Bye  ' + userName + ' Nice to meet you ^^');
 
 
 
 
-// question 6
-
+//  Q6
+function Q6(){
 let myNumber = ""
 for (let i = 3; i > -1; i--) {
      myNumber = prompt("Please guess a number between 1 and 10")
@@ -118,15 +132,16 @@ for (let i = 3; i > -1; i--) {
         alert("Your attempts ended  The number is 7")
     }
 }
+}
+Q6();
 
 
 
 
 
+//  Q7
 
-// question 7
-
-
+function Q7(){
 let car1 = ["bmw", "ford", "mercedes", "kia"];
 let car = prompt("Please guess which car I like the most")
 let test1 = false
@@ -156,3 +171,5 @@ for (let i = 5; i > -1; i--) {
 
 alert("Your  score is "+score+ "/7")
 
+}
+Q7();
